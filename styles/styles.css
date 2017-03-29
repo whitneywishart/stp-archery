@@ -1,0 +1,27 @@
+body {
+  margin: 1rem 10rem 1rem 10rem;
+}
+
+h1 {
+  color: #3F5A83;
+}
+
+p {
+  color: #3F5A83;
+}
+
+.button {
+  background-color: #9FADC2;
+  border: none;
+  color: white;
+  padding: 5px 10px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.button:hover {
+  color: black;
+}
