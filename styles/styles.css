@@ -34,3 +34,9 @@ a:hover {
   background-color: #E7E8EC;
   color: grey;
 }
+
+.code-sample {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 14px;
+  margin-left: 3rem;
+}
