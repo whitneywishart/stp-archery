@@ -1,8 +1,13 @@
-body {
-  margin: 1rem 10rem 1rem 10rem;
+html  {
+  font-family: "Calibri", "Lucida Grande", sans-serif;
+  font-size: 16px;
 }
 
-h1 {
+main {
+  margin: 1rem 20rem 1rem 20rem;
+}
+
+h1,h2,h3 {
   color: #3F5A83;
 }
 
@@ -12,16 +17,20 @@ p {
 
 .button {
   background-color: #9FADC2;
-  border: none;
   color: white;
-  padding: 5px 10px;
+  padding: 10px 10px;
   text-align: center;
   display: inline-block;
-  font-size: 16px;
+  font-size: 18px;
   margin: 4px 2px;
   cursor: pointer;
-}
+  text-decoration: none;
+  box-shadow: .1rem .1rem 1rem #888888;
+  border-radius: 50%;
+  font-weight: bold;
+  }
 
-.button:hover {
-  color: black;
+a:hover {
+  background-color: #E7E8EC;
+  color: grey;
 }
