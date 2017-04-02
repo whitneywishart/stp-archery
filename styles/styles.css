@@ -4,30 +4,52 @@ html  {
 }
 
 body {
-  margin: 1rem 20rem 1rem 20rem;
+  margin: 1rem 10rem 1rem 10rem;
+  }
+
+address {
+  margin-bottom: 1rem;
+}
+
+.business {
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
 }
 
 .business-name {
-  background-color: #3F5A83;
+  background-color: #2D5A72;
   color: white;
   text-align: center;
   font-size: 4rem;
-}
-
-.flex-container {
-  display: flex;
-}
-
-.column01 {
-  padding: 0 1rem 0 0;
-}
-
-.column02 {
-  border: solid 1px grey;
-  padding: 1rem;
-  margin: 1rem;
+  padding: 3rem;
   }
 
+.business-logo {
+  position: absolute;
+  left: 15rem;
+  top: 3rem;
+}
+
+
+nav {
+  background-color: #848D8A;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: space-around;
+  padding: .5rem .5rem .5rem .5rem;
+  }
+
+  nav a {
+    color: #FCEFBB;
+    padding: 1rem 1rem 1rem 1rem;
+    text-decoration: none;
+    border-radius: 50%;
+    transition: .5s ease;
+  }
+.gallery-hero {
+  animation: walk 0.5s linear 0s infinite alternate,
+}
 
 h1,h2,h3 {
   color: #3F5A83;
@@ -37,24 +59,10 @@ p {
   color: #3F5A83;
 }
 
-.button {
-  background-color: #9FADC2;
-  color: white;
-  padding: 10px 10px;
-  text-align: center;
-  display: inline-block;
-  font-size: 18px;
-  margin: 4px 2px;
-  cursor: pointer;
-  text-decoration: none;
-  box-shadow: .1rem .1rem 1rem #888888;
-  border-radius: 50%;
-  font-weight: bold;
-  }
-
 a:hover {
   background-color: #E7E8EC;
   color: grey;
+  border-radius: 50%;
 }
 
 .code-sample {
@@ -63,8 +71,14 @@ a:hover {
   margin-left: 3rem;
 }
 
-footer {
-  background-color: #9FADC2;
-  color: white;
-  padding: 1rem .5rem .5rem;
+.footer-links {
+  background-color: #FCEFBB;
+  font-size: 1rem;
+  display: flex;
+  justify-content: space-around;
+  padding: .5rem .5rem .5rem .5rem;
 }
+
+/*a .footer-links {
+  text-decoration: none:
+}*/
