@@ -22,7 +22,6 @@ address {
 
 .business-logo {
   position: relative;
-  top: 1.5rem;
   margin: inherit;
 }
 
@@ -54,6 +53,20 @@ p {
   color: #3F5A83;
 }
 
+.container {
+  margin: 0 10rem 0 10rem;
+}
+
+.col1 {
+  /*border: 1px solid black;*/
+  text-align: center;
+}
+
+.col2 {
+  text-align: center;
+  /*border: 1px solid black;*/
+}
+
 .flex-container {
   display: flex;
   margin: inherit;
@@ -82,10 +95,10 @@ padding-top: 2rem;
 }
 
 footer {
-  background-color: #2D5A72;
+  background-color: #848D8A;
   font-size: 1rem;
   display: flex;
   justify-content: space-around;
   padding: .5rem .5rem .5rem .5rem;
-  margin: inherit;
+  margin: 0 10rem 0 10rem;
 }
