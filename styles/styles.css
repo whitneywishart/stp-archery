@@ -59,11 +59,11 @@ p {
 
 .col1 {
   /*border: 1px solid black;*/
-  text-align: center;
+  text-align: left;
 }
 
 .col2 {
-  text-align: center;
+  text-align: left;
   /*border: 1px solid black;*/
 }
 
